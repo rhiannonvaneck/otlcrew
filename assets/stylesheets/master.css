@@ -1,0 +1,125 @@
+body{
+  font-size: 16pt;  /* 1rem */
+  background-color: #6ECEF6;
+  color: white;
+}
+
+img{
+  /*width: 100%;*/
+}
+
+section{
+  max-width: 40rem;
+  margin: 0 auto;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+section img{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+a{
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+p {
+  /*color: red;*/
+}
+
+iframe{
+  width: 19rem;
+  height: 10.678rem;   /* width x .562  */
+  padding-top: 2rem;
+}
+
+.bluetopink{
+  height: 3rem;
+  background-image: url("../images/transitiontwo.png");
+  background-position: center;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
+.pinktoblue{
+  height: 3rem;
+  background-image: url("../images/transitionone.png");
+  background-position: center;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
+.darkarea{
+    background-color: #D029A0;
+}
+
+.title{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.flexboxcontainer nav li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  background-color: #6ECEF6;
+}
+.topbar {
+  text-align: center;
+  background-color: #6ECEF6;
+}
+.toplinks a{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.dividertitle {
+  text-align: center;
+}
+
+.crew-pic img{
+  width: 30%;
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 650px) {
+  iframe{
+    width: 35rem;
+    height: 19.67rem;   /* width x .562  */
+    padding-top: 3rem;
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  section{
+    padding-bottom: 3rem;
+  }
+}
+
+footer{
+  font-size: .5rem;
+}
