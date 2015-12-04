@@ -30,10 +30,9 @@ section img{
   margin: 0;
 }
 
-
-
 a{
   color: white;
+  text-decoration: none;
 }
 
 a:visited{
@@ -41,7 +40,7 @@ a:visited{
 }
 
 p {
-  /*color: red;*/
+  /*font-family: "Arial Narrow";*/
 }
 
 iframe{
@@ -49,6 +48,8 @@ iframe{
   height: 10.678rem;   /* width x .562  */
   padding-top: 2rem;
 }
+
+
 
 .bluetopink{
   height: 3rem;
@@ -98,8 +99,24 @@ iframe{
 }
 
 .crew-pic img{
-  width: 30%;
+  width: 100%;
 }
+
+.social ul{
+  display: flex;
+  flex-direction: row;
+}
+
+nav.social li{
+  list-style-type: none;
+}
+
+nav.social img{
+  width: 4rem;
+  padding: 1rem;
+}
+
+
 
 @media screen and (min-width: 600px) {
 
